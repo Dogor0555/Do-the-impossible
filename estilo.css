@@ -1,0 +1,62 @@
+*{
+	padding         :                     0;
+	margin          :                     0;
+	box-sizing      :            border-box;
+	font-family     :   'Heebo', sans-serif; 
+}
+
+
+body{
+   display          :                  flex;
+   flex-direction   :                column;
+   width            :                 100vw;
+   height           :                 100vh;
+   background-color :            #000000;
+   overflow-x       :                hidden;
+
+}
+
+
+.parrafo{
+   margin           :                  auto;
+   color            :               #fff; 
+   letter-spacing   :                  10px;
+   font-size        :                  80px;  
+   transition       :              all 0.8s; 
+   display          :                  flex;
+
+}
+
+
+.parrafo:hover{
+   color            :            #0fece2;
+   text-shadow      :          0px 0px 50px,
+                               0px 0px 100px,
+                               0px 0px 150px;           ;
+
+}
+
+
+.parrafo span{
+   width            :                 115px;
+   display          :                 block;         
+   transition       :            width 0.6s;
+   overflow         :                hidden;
+}
+
+
+.parrafo:hover span{
+   width            :                   0px;
+  
+}
+
+
+.frase{
+   margin           :                  auto;
+   color            :               #fff; 
+   letter-spacing   :                  10px;
+   font-size        :                  80px;
+   transition       :              all 0.8s;   
+   display          :                  flex;
+
+}
